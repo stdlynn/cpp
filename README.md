@@ -15,8 +15,8 @@ _Work in progress — might `#include <mistakes>`._
 | **(immovable)**          | `lvalue`               |                    |
 
 `glvalue`: (generalised lvalue) values with an _identity_, encapsulating `lvalues` and `xvalues`.
-<br>`rvalue`: (right value) values that can be moved, encapsulating `xvalues` and `prvalues`.
-<br>`lvalue`: (right value) values that cannot be moved.
+<br>`rvalue`: (read/right value) values that can be moved, encapsulating `xvalues` and `prvalues`.
+<br>`lvalue`: (locator/left value) values that cannot be moved.
 <br>`xvalue`: (eXpiring value) the result of applying `std::move` to an `lvalue`.
 <br>`prvalue`: (pure rvalue) values without an _identity_.
 
