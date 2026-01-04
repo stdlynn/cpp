@@ -1,0 +1,29 @@
+# remote_theme: pages-themes/leap-day@v0.2.0
+# remote_theme: just-the-docs/just-the-docs
+remote_theme: sighingnow/jekyll-gitbook
+plugins:
+- jekyll-remote-theme
+markdown: kramdown
+title: "Lynn's C++ Notes"
+
+# To be displayed on the sidebar
+collections:
+  notes:
+    output: true
+    permalink: /:collection/:path/
+
+# Sidebar ordering
+ordered_collections:
+  - notes
+
+# Jekyll-toc generates contents per file
+toc:
+  enabled: true
+
+# Use README.md instead of index.mdd
+plugins:
+- jekyll-readme-index
+
+# Remove the frontmatter from the README on GitHub
+readme_index:
+  with_frontmatter: false
