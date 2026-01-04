@@ -26,5 +26,5 @@ plugins:
 # Remove the frontmatter from the README on GitHub
 readme_index:
   enabled:          true
-  remove_originals: false
+  remove_originals: true
   with_frontmatter: false
