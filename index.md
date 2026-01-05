@@ -15,8 +15,53 @@ Work in progress — might `#include <mistakes>`.
 hiiii
 
 ```cpp
-int i = 3;
+#include <iostream>
+
+using namespace std;
+
+std::vector<int> vec;
+
+// This is a comment
+class Obj
+{
+public:
+    static constexpr int var{ 800 };
+    static constexpr std::string s{ "Pom Ray Tracer" };
+    int i;
+
+    enum class MyEnum : std::uint8_t
+    {
+        ZERO = 0,
+        ONE = 1
+    };
+};
+
+void fn() {}
+
+int main()
+{
+    if (true)
+    {
+        std::cout << sizeof( Obj::var ) << "Hello" << 'W';
+        Obj obj{};
+        obj.i = 3;
+    }
+
+    nullptr;
+    NULL;
+
+    a + b;
+    c | d;
+    x xor y;
+
+    return 0;
+}
 ```
+
+# Theme notes:
+
+- Figure out how to remove or set those links in the top right
+- Find out what that A symbol is for
 
 > tip
 {: .block-tip }

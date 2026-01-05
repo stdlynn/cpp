@@ -4,6 +4,9 @@ remote_theme: sighingnow/jekyll-gitbook
 markdown: kramdown
 title: "Lynn's C++ Notes"
 
+# Code highlight style
+syntax_highlighter_style: custom
+
 # To be displayed on the sidebar
 collections_dir: notes
 collections:

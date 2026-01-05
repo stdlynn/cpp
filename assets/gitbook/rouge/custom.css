@@ -1,0 +1,50 @@
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w, .highlight .k, .highlight .kp, .highlight .kr, .highlight .kv, .highlight .kv, .highlight .kn, .highlight .kc, .highlight .kd {
+    color: #4D9BC3; /* Base color, Keywords (.k) */
+}
+.highlight pre {
+    background-color: #1E1E1E; /* Background color */
+}
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+    color: #57A64A; /* Comment */
+}
+.highlight .o, .highlight .ow, .highlight .nc {
+    color: #4EC9B0; /* Operators (.o), Class names (.nc) */
+}
+.highlight .p, .highlight .pi {
+    color: #EDB839; /* Braces */
+}
+.highlight .kt {
+    color: #C8A0CA; /* Built-in types */
+}
+.highlight .n, .highlight .nn, .highlight .no, .highlight .na {
+    color: #C8C8C8; /* Names, functions, enum values, etc. */
+}
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx, .highlight .ss {
+    color: #AAC4A2; /* (Non-string) literals */
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1, .highlight .sa, .highlight .sr, .highlight .si, .highlight .se, .highlight .cpf {
+    color: #D69D85; /* Strings (s.), #include file (.cpf) */
+}
+.highlight .cp {
+    color: #9B9B9B; /* Macro, #include */
+}
+.highlight .gi {
+    color: #90a959; /* ```diff + */
+}
+.highlight .gd {
+    color: #ac4142; /* ```diff - */
+}
+.highlight .err {
+    color: #151515;
+    background-color: #ac4142; 
+}
+.highlight .nt {
+    color: #f4bf75;
+}
+.highlight .gh {
+    color: #6a9fb5;
+    background-color: #151515;
+    font-weight: bold;
+}
