@@ -1,7 +1,7 @@
 ---
 title: "Test"
 layout: post
-nav_order: 2
+date: 2-1-1 # Using the first number as a sorting index
 ---
 
 # Testing 2

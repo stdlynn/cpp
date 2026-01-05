@@ -5,14 +5,19 @@ markdown: kramdown
 title: "Lynn's C++ Notes"
 
 # To be displayed on the sidebar
+collections_dir: notes
 collections:
-  notes:
+  language_features:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:name/
+  cminusminus:
+    output: true
+    permalink: /:collection/:name/
 
-# Sidebar ordering
+# Sidebar category ordering
 ordered_collections:
-  - notes
+  - language_features
+  - cminusminus
 
 # Jekyll-toc generates contents per file
 toc:

@@ -1,5 +1,5 @@
 ---
-title: "🐇 Lynn's C++ Notes"
+title: "Lynn's C++ Notes"
 layout: home
 permalink: /
 ---
