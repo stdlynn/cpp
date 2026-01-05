@@ -13,7 +13,7 @@ date: 1-1-1 # Using the first number as a sorting index
 | **rvalue <br>(movable)** | `xvalue`               | `prvalue`          |
 | **(immovable)**          | `lvalue`               |                    |
 
-- **glvalues:** (generalised lvalue) values with an _identity_, encapsulating `lvalues` and `xvalues`.
+- **glvalue:** (generalised lvalue) values with an _identity_, encapsulating `lvalues` and `xvalues`.
 - **rvalue:** (read/right value) values that can be moved, encapsulating `xvalues` and `prvalues`.
 - **lvalue:** (locator/left value) values that cannot be moved (only copied).
 - **xvalue:** (eXpiring value) the result of applying `std::move` to an `lvalue`.
