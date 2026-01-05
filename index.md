@@ -2,6 +2,7 @@
 title: "Lynn's C++ Notes"
 layout: home
 permalink: /
+cover:
 ---
 
 # Testing
@@ -13,6 +14,8 @@ Work in progress — might `#include <mistakes>`.
 # Oh ok ig
 
 hiiii
+
+$$ x^2 + y^2 = z^2 $$
 
 ```cpp
 #include <iostream>

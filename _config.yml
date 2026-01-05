@@ -5,22 +5,18 @@ markdown: kramdown
 title: "Lynn's C++ Notes"
 
 # Code highlight style
-syntax_highlighter_style: custom
+syntax_highlighter_style: custom_syntax_style
 
 # To be displayed on the sidebar
 collections_dir: notes
 collections:
-  language_features:
-    output: true
-    permalink: /:collection/:name/
-  cminusminus:
+  essentials:
     output: true
     permalink: /:collection/:name/
 
 # Sidebar category ordering
 ordered_collections:
-  - language_features
-  - cminusminus
+  - essentials
 
 # Jekyll-toc generates contents per file
 toc:
