@@ -1,6 +1,10 @@
 # Lynn's C++ notes
 _Work in progress — might `#include <mistakes>`._
 
+TODO:
+- Value categories, write about & and && member functions
+- Actually introduce how to write an rvalue reference and how it works with function overloads, etc.
+
 ## Contents
 
 1. [**Value Categories**](#value-categories--all-categories-have-value)
